@@ -18,7 +18,7 @@ That's why I decided to create several projects with html, css and javascript. S
 ### Links
 - Solution URL: [here](https://github.com/ismanolgarcia/web-projects-to-practice)
 
-- Live Site URL: [here]()
+- Live Site URL: [here](https://web-projects-to-practice.vercel.app/)
 
 ### Built with
 - Semantic HTML5 markup
@@ -27,4 +27,4 @@ That's why I decided to create several projects with html, css and javascript. S
 
 
 ### Author
-- Ismanol Garcia 
+- Ismanol García
