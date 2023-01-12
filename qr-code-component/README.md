@@ -11,7 +11,7 @@ Thanks for checking out this front-end coding challenge.
 **To do this challenge, you need a basic understanding of HTML and CSS.**
 
 ### Links
-- Challange URL [here](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
+- Challange URL: [here](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
 - Solution URL: [here](https://github.com/ismanolgarcia/web-projects-to-practice/tree/main/qr-code-component)
 
 - Live Site URL: [here](https://web-projects-to-practice.vercel.app/qr-code-component/index.html)
