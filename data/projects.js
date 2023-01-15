@@ -14,4 +14,9 @@ export const projects = [
     github:
       'https://github.com/ismanolgarcia/web-projects-to-practice/tree/main/3-column-preview-card',
   },
+  {
+    name: 'single-price-grid',
+    github:
+      'https://github.com/ismanolgarcia/web-projects-to-practice/tree/main/single-price-grid',
+  },
 ];

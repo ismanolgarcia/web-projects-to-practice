@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+:root {
+  --Cyan: hsl(179, 62%, 43%);
+  --Cyan-light: hsl(179, 47%, 52%);
+  --Bright-Yellow: hsl(71, 73%, 54%);
+  --Light-Gray: hsl(204, 43%, 93%);
+  --Grayish-Blue: hsl(218, 22%, 67%);
+  --white: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+}
+body {
+  background-color: var(--Light-Gray);
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 50px;
+  width: 550px;
+  height: 400px;
+}
+.card__header {
+  background-color: var(--white);
+  padding: 40px;
+  border-radius: 8px 8px 0 0;
+}
+.header__title {
+  color: var(--Cyan);
+  margin: 0 0 20px 0;
+  font-size: 1.3rem;
+}
+.header__subtitle {
+  color: var(--Bright-Yellow);
+  margin: 0 0 10px 0;
+}
+.card__paragraph {
+  color: var(--Grayish-Blue);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+.paragraph {
+  color: var(--Light-Gray);
+}
+.card__buttom {
+  display: flex;
+  flex-direction: row;
+}
+.buttom__left {
+  border-radius: 0 0 0 8px;
+  background-color: var(--Cyan);
+  padding: 40px;
+  width: 50%;
+}
+.buttom__text {
+  color: var(--Light-Gray);
+  font-size: 0.8rem;
+  margin: 10px 0 10px 0;
+}
+.buttom__dollar {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin: 0 10px 0 0;
+}
+.buttom__title {
+  color: var(--white);
+  margin: 0 0 10px 0;
+}
+.button {
+  width: 100%;
+  height: 35px;
+  margin: 20px 0 0 0;
+  border: none;
+  background-color: var(--Bright-Yellow);
+  color: var(--Light-Gray);
+}
+.buttom__right {
+  width: 50%;
+  background-color: var(--Cyan-light);
+  padding: 40px;
+  border-radius: 0 0 8px 0;
+}
+
+@media (max-width: 600px) {
+  main {
+    min-height: 100%;
+  }
+  .card {
+    padding: 15% 10%;
+  }
+  .card__buttom {
+    flex-direction: column;
+  }
+  .card__header {
+    width: 100%;
+  }
+  .buttom__left {
+    width: 100%;
+    border-radius: 0 0 0 0;
+  }
+  .buttom__right {
+    width: 100%;
+    margin-bottom: 15%;
+    border-radius: 0 0 8px 8px;
+  }
+}
