@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url('./images/bg-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: 1090px;
+  background-color: hsl(257, 40%, 49%);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Outfit', sans-serif;
+}
+
+.header {
+  margin: 25px 50px;
+}
+
+.header__logo {
+  width: 175px;
+}
+
+.hero {
+  display: flex;
+  padding: 0 50px;
+}
+
+.hero__mockups--img {
+  width: 52%;
+}
+
+.hero__aside {
+  padding: 5%;
+}
+
+.hero__heading {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.hero__paragraph {
+  color: #ecd8ff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 20px 0;
+}
+.hero__button {
+  width: 180px;
+  height: 50px;
+  border-radius: 50px;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.hero__button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: #ffffff;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin: 20px 50px;
+}
+.social__items {
+  width: 35px;
+  border-radius: 50px;
+  padding: 5px;
+  border: 1px solid #000000;
+  filter: invert(1);
+}
+
+.social__items:hover {
+  background-color: hsl(120, 85%, 28%);
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1440px) {
+  .social {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  .hero {
+    padding: 5%;
+  }
+  body{
+    background-size: 100%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  body {
+    background-image: url('./images/bg-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .hero__mockups--img {
+    width: 100%;
+    padding: 25px;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .hero__aside {
+    padding: 10px;
+    text-align: center;
+  }
+  .hero__heading {
+    font-size: 2rem;
+  }
+  .hero__paragraph {
+    font-size: 1.2rem;
+  }
+  .social {
+    justify-content: center;
+    margin: 50px 0;
+  }
+}
+
+
