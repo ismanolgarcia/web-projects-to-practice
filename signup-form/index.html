@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro component with sign up form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main class="main">
+    <div class="hero">
+      <h1 class="hero__title">Learn to code by watching others</h1>
+      <p class="hero__description">See how experienced developers solve problems real-time Watching scripted tutorials
+        is great,but understanding how developers think is invaluable.
+      </p>
+    </div>
+    <div class="container__form">
+      <div class="form__header">
+        <p class="header__title">
+          Try it free 7 days then $20/mo. thereafter
+        </p>
+      </div>
+      <form action="" class="form">
+        <fieldset class="form_container">
+          <div class="wrap__input">
+            <input type="text" name="firstName" id="firstName" placeholder="First Name" autofocus required
+              class="input">
+            <p class="alert hiddened">First Name cannot be empty</p>
+          </div>
+          <div class="wrap__input">
+            <input type="text" name="lastName" id="lastName" placeholder="Last Name" required class="input">
+            <p class="alert hiddened">Last Name cannot be empty</p>
+          </div>
+          <div class="wrap__input">
+            <input type="email" name="emailAddress" id="emailAddress" placeholder="Email Address" required
+              class="input">
+            <p class="alert hiddened">Email Addres cannot be empty</p>
+          </div>
+          <div class="wrap__input">
+            <input type="password" name="password" id="password" placeholder="Password" maxlength="20" minlength="7"
+              required class="input">
+            <p class="alert hiddened">Password cannot be empty</p>
+          </div>
+          <div>
+            <button type="submit" id="btn">Claim your free trial</button>
+            <label for="" class="terms">By clicking the button, you are agreeing to our
+              <a href="http://" target="_blank" rel="noopener noreferrer">Terms and Services</a>
+            </label>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+
+  </main>
+  <script src="./app.js"></script>
+</body>
+
+</html>
