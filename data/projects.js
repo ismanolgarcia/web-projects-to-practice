@@ -34,4 +34,9 @@ export const projects = [
     github:
       'https://github.com/ismanolgarcia/web-projects-to-practice/tree/main/color-flipper',
   },
+  {
+    name: 'signup-form',
+    github:
+      'https://github.com/ismanolgarcia/web-projects-to-practice/tree/main/signup-form',
+  },
 ];
