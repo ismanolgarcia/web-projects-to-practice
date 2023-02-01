@@ -39,4 +39,9 @@ export const projects = [
     github:
       'https://github.com/ismanolgarcia/web-projects-to-practice/tree/main/signup-form',
   },
+  {
+    name: 'base-apparel-coming-soon',
+    github:
+      'https://github.com/ismanolgarcia/web-projects-to-practice/tree/main/base-apparel-coming-soon',
+  },
 ];
