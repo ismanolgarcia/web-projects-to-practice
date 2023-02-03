@@ -1,5 +1,4 @@
-# Frontend Mentor - Huddle landing page with a single introductory section
-
+# Frontend Mentor - Intro component with signup form
 ![Design preview for the QR code component coding challenge](./design/desktop-design.png)
 
 ## Welcome! 👋
