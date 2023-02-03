@@ -1,4 +1,4 @@
-# Frontend Mentor - QR code component
+# Frontend Mentor - Single price grid component
 
 ![Design preview for the QR code component coding challenge](./design/desktop-design.png)
 
