@@ -12,6 +12,7 @@ That's why I decided to create several projects with html, css and javascript. S
 - [Frontend Mentor](https://www.frontendmentor.io/challenges)
 
 - [FreeCodeCamp](https://www.freecodecamp.org/espanol/news/40-proyectos-de-javascript-para-principiantes-ideas-faciles-para-empezar-a-codificar-en-js/)
+- [50 Projects 50 days](https://50projects50days.com/)
 
 
 
