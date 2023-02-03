@@ -44,4 +44,9 @@ export const projects = [
     github:
       'https://github.com/ismanolgarcia/web-projects-to-practice/tree/main/base-apparel-coming-soon',
   },
+  {
+    name: 'gallery-cards',
+    github:
+      'https://github.com/ismanolgarcia/web-projects-to-practice/tree/main/gallery-cards',
+  },
 ];
