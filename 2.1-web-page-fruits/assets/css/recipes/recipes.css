@@ -1,0 +1,14 @@
+@import url("./recipe.css");
+@import url("./recipe__content.css");
+@import url("./recipe__title.css");
+@import url("./recipe__description.css");
+@import url("./recipe__button.css");
+@import url("./recipe__image.css");
+
+.recipes {
+  background-color: var(--bg-recipes);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5rem;
+}

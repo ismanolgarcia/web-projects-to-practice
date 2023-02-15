@@ -1,0 +1,11 @@
+@import url("./aboutus__title.css");
+@import url("./aboutus__description.css");
+
+.aboutus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  padding: 0.75rem;
+}

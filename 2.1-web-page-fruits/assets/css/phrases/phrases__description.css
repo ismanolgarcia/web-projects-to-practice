@@ -1,0 +1,6 @@
+.phrases__description {
+  font-size: 1.75rem;
+  padding: 0.4rem;
+  font-weight: 300;
+  color: var(--tertiary-text-color);
+}

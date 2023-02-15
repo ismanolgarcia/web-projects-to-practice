@@ -1,0 +1,14 @@
+.recipe__button {
+  background-color: var(--bg-button-color);
+  color: var(--primary-text-color);
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.recipe__button:hover {
+  background-color: var(--bg-hover-button);
+}

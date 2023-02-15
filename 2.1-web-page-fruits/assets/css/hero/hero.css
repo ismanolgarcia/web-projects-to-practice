@@ -1,0 +1,9 @@
+@import url("./hero__image.css");
+@import url("./hero__title.css");
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,6 @@
+.phrases__title {
+  font-size: 3.188rem;
+  font-weight: 400;
+  font-family: var(--font-default);
+  color: var(--secondary-text-color);
+}

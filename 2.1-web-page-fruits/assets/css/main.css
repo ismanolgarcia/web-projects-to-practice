@@ -1,0 +1,11 @@
+@import url("./normalize.css");
+@import url("./reset.css");
+@import url("./variables.css");
+@import url("./header/header.css");
+@import url("./hero/hero.css");
+@import url("./phrases/phrases.css");
+@import url("./menu/menu.css");
+@import url("./recipes/recipes.css");
+@import url("./aboutus/aboutus.css");
+@import url("./people/people.css");
+@import url("./footer/footer.css");

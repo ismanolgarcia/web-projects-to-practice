@@ -1,0 +1,9 @@
+.header__menu {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .header__menu {
+    display: initial;
+  }
+}
