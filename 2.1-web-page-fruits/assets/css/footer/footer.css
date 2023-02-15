@@ -1,0 +1,18 @@
+@import url("./footer__title.css");
+@import url("./footer__description.css");
+@import url("./footer__list.css");
+@import url("./footer__item.css");
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 100px 0 0 0;
+  background-color: var(--bg-header-color);
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    flex-direction: column;
+  }
+}

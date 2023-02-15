@@ -1,0 +1,21 @@
+.menu__link {
+  text-decoration: none;
+  margin: 0 1.25rem 0 0;
+  color: var(--tertiary-text-color);
+}
+
+.menu__link--active {
+  font-weight: 700;
+}
+
+.menu__link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+  .menu__link {
+    font-weight: 700;
+    color: var(--text-menu-mobile);
+    font-size: 1.3rem;
+  }
+}

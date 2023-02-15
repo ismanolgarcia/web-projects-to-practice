@@ -1,0 +1,11 @@
+.menu__item {
+  list-style: none;
+}
+
+@media screen and (max-width: 900px) {
+  .menu__item {
+    display: none;
+    margin: 5px 0;
+    background-color: var(--bg-menu-mobile);
+  }
+}

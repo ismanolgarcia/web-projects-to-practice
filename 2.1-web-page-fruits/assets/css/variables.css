@@ -1,0 +1,13 @@
+:root {
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #da2b1f;
+  --tertiary-text-color: #8c8888;
+  --font-default: Pacifico, cursive;
+  --bg-recipes: #dab997;
+  --bg-recipe-card: #ffffff;
+  --bg-header-color: #f9f9f9;
+  --bg-button-color: #da2b1f;
+  --bg-hover-button: #9f1010;
+  --bg-menu-mobile: #dab997;
+  --text-menu-mobile: #000000;
+}

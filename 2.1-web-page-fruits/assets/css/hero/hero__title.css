@@ -1,0 +1,16 @@
+.hero__title {
+  position: absolute;
+  bottom: 40%;
+  color: var(--primary-text-color);
+  font-size: 5.063rem;
+  font-family: var(--font-default);
+  font-weight: 400;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .hero__title {
+    font-size: 3.5rem;
+  }
+}

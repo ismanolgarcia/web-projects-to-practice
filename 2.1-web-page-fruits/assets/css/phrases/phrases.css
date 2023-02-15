@@ -1,0 +1,7 @@
+@import url("./phrases__title.css");
+@import url("./phrases__description.css");
+
+.phrases {
+  text-align: center;
+  padding: 2rem;
+}

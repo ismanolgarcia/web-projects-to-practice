@@ -1,0 +1,11 @@
+.people__container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 990px) {
+  .people__container {
+    flex-direction: column;
+  }
+}

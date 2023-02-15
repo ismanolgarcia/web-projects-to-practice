@@ -1,0 +1,9 @@
+.footer__description {
+  font-size: 2rem;
+  color: var(--tertiary-text-color);
+}
+@media screen and (max-width: 700px) {
+  .footer__description {
+    margin: 5px;
+  }
+}

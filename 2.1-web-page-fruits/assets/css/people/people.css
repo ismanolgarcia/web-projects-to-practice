@@ -1,0 +1,12 @@
+@import url("./people.css");
+@import url("./people__container.css");
+@import url("./people__image.css");
+@import url("./people__name.css");
+@import url("./people__function.css");
+
+.people {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+}

@@ -1,0 +1,7 @@
+.recipe {
+  background-color: var(--bg-recipe-card);
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  width: 350px;
+}

@@ -1,0 +1,9 @@
+@import url("./menu__item.css");
+@import url("./menu__link.css");
+@import url("./menu__list.css");
+
+@media screen and (max-width: 900px) {
+  .menu {
+    width: 100%;
+  }
+}

@@ -1,0 +1,7 @@
+.aboutus__title {
+  color: var(--secondary-text-color);
+  font-family: var(--font-default);
+  text-align: center;
+  font-size: 3.188rem;
+  font-weight: 400;
+}
